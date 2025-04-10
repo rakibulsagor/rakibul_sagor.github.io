@@ -38,4 +38,6 @@ Hi, I’m **Rakibul Hasan Sagor** — a 20-year-old passionate about cybersecuri
 ---
 
 ## 📂 Folder Structure
+portfolio/ ├── index.html ├── about.html ├── projects.html ├── skills.html ├── contact.html ├── resume.html ├── css/ │ └── style.css ├── js/ │ └── script.js ├── assets/ │ ├── images/ │ └── resume.pdf
+
 
