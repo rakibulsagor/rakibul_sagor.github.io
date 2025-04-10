@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+nav {
+    background-color: #1f1f1f;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00cc00;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1, h2 {
+    color: #00cc00;
+}
+
+.btn {
+    background-color: #00cc00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background-color: #1f1f1f;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-list li {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #2a2a2a;
+    border: 1px solid #333;
+    color: #e0e0e0;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00cc00;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .project, .skills-list li {
+        width: 100%;
+    }
+}
