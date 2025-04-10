@@ -37,7 +37,8 @@ Hi, I’m **Rakibul Hasan Sagor** — a 20-year-old passionate about cybersecuri
 
 ---
 
-## 📂 Folder Structure
-portfolio/ ├── index.html ├── about.html ├── projects.html ├── skills.html ├── contact.html ├── resume.html ├── css/ │ └── style.css ├── js/ │ └── script.js ├── assets/ │ ├── images/ │ └── resume.pdf
 
-
+## 📬 Contact
+- 📧 **Email:** darkmn3301@gmail.com
+- 🌐 **LinkedIn:** <p><a href="https://www.linkedin.com/in/rakibul-hasan-sagor/"><b> Rakibul Hasan Sagor</b>  </p>
+- 📍 **Location:** Bangladesh
