@@ -1,1 +1,90 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Cyber Security Expert">
+    <title>Your Name | Cyber Security Expert</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Your Name</h1>
+        <p>Aspiring Cybersecurity Expert | Passionate Coder</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a cybersecurity enthusiast with a passion for protecting digital systems. I hold a degree in [Your Degree] from [Your University] and enjoy exploring new tools and techniques to stay ahead of threats.</p>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Secured a web application by identifying and fixing vulnerabilities.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Conducted a penetration test for a small business network.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Frontend: HTML, CSS, JavaScript</li>
+            <li>Backend: Python, Node.js</li>
+            <li>Tools: Wireshark, Metasploit</li>
+            <li>Security: Encryption, Firewalls</li>
+        </ul>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/your-email" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required aria-describedby="name-error">
+            <span id="name-error" class="error"></span>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required aria-describedby="email-error">
+            <span id="email-error" class="error"></span>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
+            <span id="message-error" class="error"></span>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume for more details.</p>
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 Your Name. All rights reserved.</p>
+    </footer>
+    <!-- Back to Top Button -->
+    <button id="back-to-top" style="display: none;">Back to Top</button>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
